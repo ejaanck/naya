@@ -1,6 +1,6 @@
 ######## Kynan #######
 
-FROM ejaanck/naya:main
+FROM ejaanck/naya:ejaanck-patch-1
 
 
 COPY installer.sh .
