@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/naya1503/Naya-Userbot.git"
+REPO="https://github.com/ejaanck/naya/tree/ejaanck-patch-1"
 DIR="/root/naya1503"
 
 spinner(){
