@@ -1,6 +1,6 @@
 ######## Kynan #######
 
-FROM kynan1503/naya-userbot:main
+FROM ejaanck/naya:main
 
 
 COPY installer.sh .
