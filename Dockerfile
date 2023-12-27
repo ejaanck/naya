@@ -1,6 +1,6 @@
-######## Kynan #######
+######## Kynan ####### 
 
-FROM ejaanck/naya:main
+FROM ejaanck/naya:ejaanck-patch-2
 
 
 COPY installer.sh .
@@ -8,7 +8,7 @@ COPY installer.sh .
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/naya1503"
+WORKDIR "/root/ejaanck"
 
 # start the bot.
 CMD ["bash", "start"]
